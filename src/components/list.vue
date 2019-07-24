@@ -39,7 +39,7 @@
 			...mapState(NameSpace, ['songlist', 'songState']),
 			...mapState('list', {showlist: 'show', listclass: 'class'}),
 			playingOrder() {
-				return this.songState.playingOrder;
+				return this.songState.playingO
 			}
 		},
 		methods: {
